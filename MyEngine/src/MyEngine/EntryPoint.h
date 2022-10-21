@@ -2,7 +2,7 @@
 
 #ifdef ME_PLATFORM_WINDOWS
 
-// a function defined anywhere else
+// this is a function defined in client
 // which will return that application 
 // and creating application is done in client
 extern MyEngine::Application* MyEngine::CreateApplication();

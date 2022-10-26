@@ -1,42 +1,46 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="源文件">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="MyEngine">
+      <UniqueIdentifier>{01CCBB96-ED98-16A2-16B2-044A02DE4B30}</UniqueIdentifier>
     </Filter>
-    <Filter Include="头文件">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="资源文件">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="MyEngine\Events">
+      <UniqueIdentifier>{C5CCB583-3158-2348-3A69-A63CA6737F48}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\MyEngine\Core.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <ClInclude Include="src\MyEngine.h" />
     <ClInclude Include="src\MyEngine\Application.h">
-      <Filter>头文件</Filter>
+      <Filter>MyEngine</Filter>
     </ClInclude>
-    <ClInclude Include="src\MyEngine.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="src\MyEngine\Core.h">
+      <Filter>MyEngine</Filter>
     </ClInclude>
     <ClInclude Include="src\MyEngine\EntryPoint.h">
-      <Filter>头文件</Filter>
+      <Filter>MyEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MyEngine\Events\ApplicationEvent.h">
+      <Filter>MyEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MyEngine\Events\Event.h">
+      <Filter>MyEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MyEngine\Events\KeyEvent.h">
+      <Filter>MyEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MyEngine\Events\MouseEvent.h">
+      <Filter>MyEngine\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\MyEngine\Log.h">
-      <Filter>头文件</Filter>
+      <Filter>MyEngine</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\MyEngine\Application.cpp">
-      <Filter>源文件</Filter>
+      <Filter>MyEngine</Filter>
     </ClCompile>
     <ClCompile Include="src\MyEngine\Log.cpp">
-      <Filter>源文件</Filter>
+      <Filter>MyEngine</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

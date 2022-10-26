@@ -9,3 +9,7 @@
 #else
 	#error MyEngine only support Windows!
 #endif
+
+//template<typename T>
+//constexpr auto BIT(T x) { return (1 << x); }
+#define BIT(x) (1 << x)

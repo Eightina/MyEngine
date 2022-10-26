@@ -1,5 +1,8 @@
 #include "Application.h"
 
+#include "MyEngine/Events/ApplicationEvent.h"
+#include "MyEngine/Log.h"
+
 namespace MyEngine {
 
 	Application::Application() {
@@ -9,8 +12,10 @@ namespace MyEngine {
 	}
 
 	void Application::Run() {
-		while (true);
+		WindowResizeEvent e(1200, 720);
+		ME_TRACE(e);
 
+		while (true);
 	}
 	
 }
